@@ -1,0 +1,31 @@
+1.
+
+mkdir test_dir
+cd test_dir
+touch example.txt
+mv example.txt rename_example.txt
+
+
+2.
+cat etc/passwd
+head -n 5 /etc/passwd
+tail -n 5 /etc/passwd
+
+
+3.
+grep root /etc/passwd
+
+4.
+zip -r test_dir.zip test_dir
+mkdir unzipped_dir
+unzip test_dir.zip -d unzipped_dir
+
+5.
+wget https://example.com/sample.txt
+
+6.
+touch secure.txt
+chmod 444 secure.txt
+ls -l secure.txt
+-r--r--r-- 1 user group ... secure.txt
+
